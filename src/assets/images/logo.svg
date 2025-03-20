@@ -1,10 +1,4 @@
-<svg width="48" height="48" viewBox="0 0 48 48" fill="none" xmlns="http://www.w3.org/2000/svg">
-<rect width="48" height="48" rx="8.88889" fill="white"/>
-<path d="M11.26 30H7.9L13.76 16.6H18.04L23.94 30H20.5L19.24 27.04H12.54L11.26 30ZM14.96 21.42L13.7 24.34H18.08L16.82 21.42L16 19.34H15.78L14.96 21.42ZM27.6398 30H24.6398V16.6H27.6398V21.92H34.6398V16.6H37.6398V30H34.6398V24.62H27.6398V30Z" fill="url(#paint0_linear_1545_39)"/>
-<defs>
-<linearGradient id="paint0_linear_1545_39" x1="8" y1="35.5" x2="38.0109" y2="10.5484" gradientUnits="userSpaceOnUse">
-<stop stop-color="#989FFF"/>
-<stop offset="1" stop-color="#29A2FF"/>
-</linearGradient>
-</defs>
+<svg xmlns="http://www.w3.org/2000/svg" x="0px" y="0px" width="50" viewBox="0,0,256,256"
+style="fill:#228BE6;">
+<g fill="#339af0" fill-rule="nonzero" stroke="none" stroke-width="1" stroke-linecap="butt" stroke-linejoin="miter" stroke-miterlimit="10" stroke-dasharray="" stroke-dashoffset="0" font-family="none" font-weight="none" font-size="none" text-anchor="none" style="mix-blend-mode: normal"><path d="M0,256v-256h256v256z" id="bgRectangle"></path></g><g fill="#ffffff" fill-rule="nonzero" stroke="none" stroke-width="1" stroke-linecap="butt" stroke-linejoin="miter" stroke-miterlimit="10" stroke-dasharray="" stroke-dashoffset="0" font-family="none" font-weight="none" font-size="none" text-anchor="none" style="mix-blend-mode: normal"><g transform="scale(8,8)"><path d="M3.58984,3l5.14453,5.48438l-5.73437,-0.91992l8.32813,6.24219l-4.1582,0.5332l8.83008,2.66016l-1,1l6.57031,-1.21289l-0.75195,3.47461l-2.88281,2.61523l-4.48437,2.29492l-1.05078,-0.65625l-0.34961,0.2793l-1.05078,3.73828l0.32813,-0.07031l1.1582,-1.42383l2.83984,-1.86719l4.69727,-1.32617l-3.38672,1.96094c0,0 -0.92525,-0.03711 -1.03125,-0.03711c-0.106,0 -0.98633,3.23047 -0.98633,3.23047l0.48633,-0.20312l0.39063,-0.60937l0.90039,-1.24414l4.01563,-1.91992l2.84961,-3.42773l2.02148,-3.98047l1.27539,-2.23828v-1.42383l-0.21289,-1.42187l-0.5332,-1.21289l0.52344,-1.02539l0.66406,-0.37695l-0.43164,-0.61133l0.35547,-0.31445l-0.58398,-0.21289l-1.48437,-1.25391l-1.91992,0.52734l-0.21289,1.91992l1.06641,0.83398l-0.60937,0.45117l-5.48438,-4.89453l2.17969,2.83398l-9.875,-6.19531l2.30469,4.28125l2.51758,0.91797l-0.94922,-1.94922l7.27734,5.02734l-6.31836,-3.7793l1.60156,1.93164z"></path></g></g>
 </svg>
