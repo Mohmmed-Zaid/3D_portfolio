@@ -1,6 +1,5 @@
 {
   "homepage": "https://Mohmmed-Zaid.github.io/3D_portfolio",
-
   "name": "3d-portfolio",
   "private": true,
   "version": "0.0.0",
@@ -22,7 +21,7 @@
     "react-dom": "^18.2.0",
     "react-router-dom": "^6.17.0",
     "react-vertical-timeline-component": "^3.6.0",
-    "three": "^0.157.0"
+    "three": "^0.174.0"
   },
   "devDependencies": {
     "@types/react": "^18.2.15",
@@ -38,7 +37,4 @@
     "tailwindcss": "^3.3.3",
     "vite": "^6.2.2"
   }
-  
 }
-
-

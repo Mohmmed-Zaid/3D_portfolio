@@ -1,8 +1,8 @@
-import { defineConfig } from 'vite'
-import react from '@vitejs/plugin-react'
+import { defineConfig } from "vite";
+import react from "@vitejs/plugin-react";
 
-// https://vitejs.dev/config/
 export default defineConfig({
+  base: "./",  // Replace with your GitHub repo name
   plugins: [react()],
-  assetsInclude: ['**/*.glb'],
-})
+  assetsInclude: ["**/*.glb"]  // <-- Add this line
+});
