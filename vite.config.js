@@ -2,7 +2,10 @@ import { defineConfig } from "vite";
 import react from "@vitejs/plugin-react";
 
 export default defineConfig({
-  base: "./",  // Replace with your GitHub repo name
+  base: "/", // Make sure this is set correctly
   plugins: [react()],
-  assetsInclude: ["**/*.glb"]  // <-- Add this line
+  build: {
+    outDir: "dist",
+  },
+  assetsInclude: ["**/*.glb"],
 });
