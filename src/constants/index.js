@@ -221,16 +221,16 @@ export const projects = [
     {
         iconUrl: pricewise,
         theme: 'btn-back-red',
-        name: 'Amazon Price Tracker',
-        description: 'Developed a web application that tracks and notifies users of price changes for products on Amazon, helping users find the best deals.',
-        link: '/', // Replace with your actual project GitHub URL
+        name: 'Jobluu',
+        description: 'Jobluu is a modern, full-stack job application platform that connects top talent with employers through a seamless and intuitive hiring experience.',
+        link: 'https://github.com/Mohmmed-Zaid/Jobluu.git', 
     },
     {
         iconUrl: threads,
         theme: 'btn-back-green',
-        name: 'Full Stack Threads Clone',
-        description: 'Created a full-stack replica of the popular discussion platform "Threads," enabling users to post and engage in threaded conversations.',
-        link: '/',  // Replace with your actual project GitHub URL
+        name: '',
+        description: '',
+        link: '/', 
     },
     {
         iconUrl: car,
@@ -251,13 +251,13 @@ export const projects = [
         theme: 'btn-back-black',
         name: 'Real-Estate Application',
         description: 'Developed a web application for real estate listings, facilitating property searches and connecting buyers with sellers.',
-        link: '/',  // Replace with your actual project GitHub URL
+        link: '', 
     },
     {
         iconUrl: summiz,
         theme: 'btn-back-yellow',
         name: 'AI Summarizer Application',
         description: 'App that leverages AI to automatically generate concise & informative summaries from lengthy text content, or blogs.',
-        link: '/',  // Replace with your actual project GitHub URL
+        link: '',  
     }
 ];
