@@ -2,10 +2,8 @@ import {
   VerticalTimeline,
   VerticalTimelineElement,
 } from "react-vertical-timeline-component";
-
 import { CTA } from "../components";
 import { experiences, skills } from "../constants";
-
 import "react-vertical-timeline-component/style.min.css";
 
 const About = () => {
@@ -19,16 +17,16 @@ const About = () => {
         </span>{" "}
         👋
       </h1>
-
       <div className='mt-5 flex flex-col gap-3 text-slate-500'>
         <p>
-        Software Engineer specializing in Java backend development with Spring Boot & Microservices, and DevOps automation using Docker, Kubernetes, and CI/CD to streamline deployments.
+          Fresh Software Engineer passionate about Java backend development with Spring Boot & Microservices, 
+          and DevOps automation using Docker, Kubernetes, and CI/CD. Eager to contribute to innovative projects 
+          and grow with a dynamic team.
         </p>
       </div>
-
+      
       <div className='py-10 flex flex-col'>
         <h3 className='subhead-text'>My Skills</h3>
-
         <div className='mt-16 flex flex-wrap gap-12'>
           {skills.map((skill) => (
             <div className='block-container w-20 h-20' key={skill.name}>
@@ -44,15 +42,16 @@ const About = () => {
           ))}
         </div>
       </div>
-
+      
       <div className='py-16'>
-        <h3 className='subhead-text'>Work Experience.</h3>
+        <h3 className='subhead-text'>My Journey & Aspirations</h3>
         <div className='mt-5 flex flex-col gap-3 text-slate-500'>
           <p>
-          I've worked on various projects, honing my skills in Java, Spring Boot, and DevOps, while collaborating with talented individuals to build efficient and scalable applications.
+            As a recent graduate, I've dedicated my time to building a strong foundation in software development 
+            through personal projects and continuous learning. I'm actively seeking internships and entry-level 
+            positions where I can apply my skills and grow as a developer.
           </p>
         </div>
-
         <div className='mt-12 flex'>
           <VerticalTimeline>
             {experiences.map((experience, index) => (
@@ -87,7 +86,6 @@ const About = () => {
                     {experience.company_name}
                   </p>
                 </div>
-
                 <ul className='my-5 list-disc ml-5 space-y-2'>
                   {experience.points.map((point, index) => (
                     <li
@@ -103,9 +101,8 @@ const About = () => {
           </VerticalTimeline>
         </div>
       </div>
-
+      
       <hr className='border-slate-200' />
-
       <CTA />
     </section>
   );
