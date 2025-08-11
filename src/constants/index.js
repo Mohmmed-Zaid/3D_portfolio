@@ -73,7 +73,6 @@ export const skills = [
         name: "Java",
         type: "Backend",
     },
-
     {
         imageUrl: jwt,
         name: "JWT",
@@ -92,7 +91,7 @@ export const skills = [
     {
         imageUrl: redis,
         name: "Redis",
-        type: "Caching", // Corrected typo
+        type: "Caching",
     },
     {
         imageUrl: tailwindcss,
@@ -141,61 +140,53 @@ export const skills = [
     }
 ];
 
+// Academic and Learning Journey
 export const experiences = [
     {
-        title: "Java Developer",
-        company_name: "______",
+        title: "Personal Projects & Learning",
+        company_name: "Self-Directed Learning",
         icon: java,
         iconBg: "#accbe1",
-        date: "March  XXXX - Present",
+        date: "2023 - Present",
         points: [
-            "Built and maintained a customer rewards web app to enhance user experience.",
-            "Collaborated with designers and product managers to develop new features.",
-            "Improved performance, reducing page load time by 20%.",
-            "Reviewed code and shared React.js best practices with peers."
-         ]
-         
+            "Built 6+ full-stack applications using Java, Spring Boot, React.js, and modern DevOps tools.",
+            "Implemented microservices architecture with Docker containerization and CI/CD pipelines.",
+            "Developed RESTful APIs with JWT authentication and integrated multiple databases (PostgreSQL, MongoDB).",
+            "Created responsive web applications with React.js, Redux for state management, and Tailwind CSS.",
+            "Practiced version control with Git/GitHub and collaborated on open-source contributions."
+        ]
     },
     {
-        title: "Devops & Full Stack Developer",
-        company_name: "Tesla",
-        icon: tesla,
+        title: "Open to Opportunities",
+        company_name: "Seeking Internships & Entry-Level Positions",
+        icon: github,
         iconBg: "#fbc3bc",
-        date: "Jan 2027 - Feb 2028",
+        date: "Looking for 2025",
         points: [
-            "Developed backend services for vehicle control and monitoring in a mobile app.",
-            "Integrated third-party APIs for navigation and vehicle diagnostics.",
-            "Optimized performance by improving state management and reducing latency.",
-            "Collaborated in an agile team, participating in sprint planning and daily stand-ups."
-         ],
-         
-    },
+            "Actively seeking Java Developer internships and entry-level full-stack positions.",
+            "Ready to contribute to backend development with Spring Boot and microservices architecture.",
+            "Eager to work on DevOps automation using Docker, Kubernetes, and cloud technologies.",
+            "Passionate about joining agile teams and contributing to real-world software solutions.",
+            "Open to learning new technologies and frameworks as per company requirements."
+        ]
+    }
+    
+    // When you get experience, add new entries like this:
+    /*
     {
-        title: "Web Developer",
-        company_name: "Shopify",
-        icon: shopify,
+        title: "Java Developer Intern",
+        company_name: "Company Name",
+        icon: java, // or company icon
         iconBg: "#b7e4c7",
-        date: "Jan 2028 - Jan 2030",
+        date: "Month YYYY - Month YYYY",
         points: [
-            "Built and maintained e-commerce websites for Shopify merchants using React.js and Liquid.", // More specific
-            "Developed custom Shopify themes and apps to meet specific client requirements.",
-            "Optimized website performance for speed and scalability, ensuring a smooth shopping experience.",
-            "Provided technical support and troubleshooting assistance to Shopify merchants.",
-        ],
-    },
-    {
-        title: "Full Stack Developer",
-        company_name: "Meta",
-        icon: meta,
-        iconBg: "#a2d2ff",
-        date: "Jan 2030 - feb 2031",
-        points: [
-            "Developing and maintaining web applications using React.js and other related technologies.",
-            "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-            "Implementing responsive design and ensuring cross-browser compatibility.",
-            "Participating in code reviews and providing constructive feedback to other developers.",
-        ],
-    },
+            "Your experience point 1",
+            "Your experience point 2",
+            "Your experience point 3",
+            "Your experience point 4"
+        ]
+    }
+    */
 ];
 
 export const socialLinks = [
@@ -204,7 +195,6 @@ export const socialLinks = [
         iconUrl: contact,
         action: () => alert('Phone: +91 7350165052'), 
     },
-
     {
         name: 'GitHub',
         iconUrl: github,
